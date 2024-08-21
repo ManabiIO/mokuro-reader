@@ -32,28 +32,3 @@ const config = {
 };
 
 export default config;
-/*
-export default defineConfig({
-    plugins: [
-        svelte({
-             preprocess: vitePreprocess(),
-        }),
-        viteSingleFile(),
-    ],
-    kit: {
-        adapter: adapter({
-            pages: 'build',
-            assets: 'build',
-            fallback: 'index.html',
-            precompress: false,
-            strict: true
-        }),
-    },
-    build: {
-        target: 'esnext'
-    },
-    server: {
-        host: true
-    }
-});
-*/
